@@ -59,7 +59,7 @@ nav{
     margin-top: 4px;
 }
 
-.left-section{
+ .left-section{
     width: 100px;
     margin-right: 20px;
 }
@@ -116,7 +116,7 @@ nav{
 }
 
 .section-2{
-    padding: 115px 35px;
+    padding: 115px 25px;
 }
 
 .sec-1{
@@ -158,12 +158,6 @@ nav{
     border-radius: 10px;
 }
 
-.sec-2{
-    margin-top: 18px;
-    background-color:  rgb(255, 243, 238);
-    padding: 8px 12px;
-}
-
 .sec-2:hover{
     background-color:  rgb(255, 229, 219);   
 }
@@ -172,35 +166,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-}
-
-.ab-1 i{
-    margin-bottom: 10px;
-    color: rgb(112, 112, 112);
-}
-
-
-
-.ab-1 p{
-    color: black;
-}
-
-.ab-1 a{  
-    text-decoration: none;
-    background-color: white;
-    box-shadow: 0px 1px 1px rgba(0, 0,0, 0.10);
-    padding: 15px 10px;
-    position: absolute;
-    top: -50px;
-    right: -25px;
-    font-family: arial;
-    font-size: 12px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    margin-top: 18px;
+    background-color:  rgb(255, 243, 238);
+    padding: 8px 12px
 }
 
 .sec-2-1 a{
@@ -333,6 +301,7 @@ nav{
     padding-right: 8px;
     padding-left: 5px;
     margin-bottom: 5px;
+    color: black;
 }
 
 .sec-4-2-1 .rs{
@@ -340,7 +309,7 @@ nav{
     color: rgb(255, 91, 32);
     margin-bottom: 0;
     font-family: roboto;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 }
 
 .sec-4-2-1 .bati{
@@ -348,14 +317,446 @@ nav{
     height: 188px;
 }
 
+.sec-4-2-1 p s{
+    color: gray;
+    font-size: 12px;
+}
+
 .sec-4-2-1 .img-con{
     position: relative;
 }
 
-.sec-4-2-1 .abco{
-    position: absolute;
-    color: white;
-    top: 45%;
-    right: 38%;
+.sec-4-2-1 a{
+    text-decoration: none;
 }
+
+.sec-5{
+    margin-top: 35px;
+}
+
+.sec-5 h2{
+    font-family: arial;
+    font-weight: 500;
+    color: rgb(64, 64, 64);
+    margin-bottom: 7px;
+}
+
+.sec-5-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+.sec-5-1-2{
+    background-color: white;
+    width: 152px;
+    padding: 12px 19px;
+}
+
+.sec-5-1-2:hover{
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.20) ;
+}
+
+.sec-5-1-2 a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-5-1-2 img{
+    width: 80px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.sec-5-1-2 p{
+    font-family: arial;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sec-6{
+    margin-top: 24px;
+}
+
+.sec-6 h2{
+    font-family: roboto;
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+    margin-bottom: 2px;
+}
+
+.sec-6-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+.sec-6-2 {
+    width: 190px;
+    padding-bottom: 8px;
+    background-color: white;
+}
+
+.sec-6-2:hover{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.20);
+}
+
+.sec-6-2 .img{
+    margin-bottom: 2px;
+    width: 100%;
+    height: auto;
+}
+
+.sec-6-2 .mall{
+    margin-bottom: 2px;
+    height: 10px;
+    padding-left: 12px;
+}
+
+.sec-6-2 p{
+    font-family: arial;
+    font-size: 14px;
+    padding-right: 8px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.sec-6-2 .rs{
+    font-size: 16px;
+    color: rgb(255, 91, 32);
+    margin-bottom: 0;
+    font-family: roboto;
+    margin-bottom: 5px;
+}
+
+.sec-6-2 p s{
+    color: gray;
+    font-size: 12px;
+}
+
+.sec-6-2 a{
+    text-decoration: none;
+}
+
+.s-6-2{
+   padding-left: 6px;
+}
+
+.s-6-2 span{
+    padding-left: 6px;
+}
+
+.s-6-2 span i{
+    font-size: 8px;
+    color: #faca51;
+    display: inline-block
+}
+
+.s-6-2 span p{
+    display: inline-block;
+    font-size: 10px;
+    color: gray;
+}
+
+.sec-7{
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-7 a{
+    text-decoration: none;
+}
+
+.sec-7 button{
+    border: 1px solid  rgb(255, 91, 32);
+    color: rgb(255, 91, 32);
+    padding: 10px 130px;
+    font-family: arial;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.sec-8{
+    margin-top: 28px;
+}
+
+.sec-8-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.l-section h2,
+ .m-section h2,
+ .m-2-section h2,
+ .r-section .h2,
+ .r-3-s h2 {
+   font-family: roboto;
+   font-weight: 400;
+   font-size: 20px;
+   color: rgb(255, 91, 32);
+   margin-bottom: 13px;
+ }
+
+.l-section li,
+ .m-section li,
+ .m-2-section li{
+    list-style: none;
+    margin-bottom: 3px;
+ }
+
+.l-section a,
+ .m-section a,
+ .m-2-section a{
+    text-decoration: none;
+    color: black;
+    font-family: roboto;
+    font-size: 14px;
+    transition: 0.20s;
+}
+
+.l-section a:hover,
+ .m-section a:hover,
+ .m-2-section a:hover{
+    text-decoration:underline;
+ }
+
+.l-section .make{
+    margin-top: 30px;
+}
+
+.m-2-section .flag{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flag, .bb{
+    margin-right: 32px;
+}
+
+.flag a{
+    margin-bottom: 8px;
+}
+
+.m-2-section a{
+    display: flex;
+    align-items: center;
+}
+
+.m-2-section .flag img{
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.m-2-1{
+    margin-top: 20px;
+}
+
+.m-2-1 .payment{
+    display: grid;
+    grid-template-columns:50px 50px 50px 50px;
+}
+
+.m-2-1 .payment img{
+    margin-bottom: 10px;
+    width: 30px;
+}
+
+.m-3-1{
+    margin-top:20px ;
+}
+
+.m-3-1 img{
+    width: 70px;
+}
+
+.r-1-s{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.r-1-s .barcode img{
+    width: 80px;
+    border-radius: 7px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.r-1-s .links img{
+    width: 70px;
+}
+
+.r-2-s{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.r-2-s img{
+    width: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.r-2-s h2{
+display: inline-block;
+font-family:roboto;
+font-size: 18px;
+color:rgb(255, 91, 32);
+}
+
+.text{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.r-2-s h2{
+display: inline-block;
+font-family: roboto;
+font-size: 18px;
+color:rgb(255, 91, 32);
+}
+
+.r-2-s .text p{
+    margin-left: 1px;
+    margin-top: 3px;
+    font-family: roboto;
+    font-size: 9px;   
+}
+
+.r-3-s h2{
+    margin-top: 40px;
+}
+
+.r-3-s .follow img{
+    width: 38px;
+    margin-right: 8px;
+}
+
+.r-3-s .follow a{
+    text-decoration: none;
+}
+
+.r-3-s .follow{
+    display: flex;
+    align-items: center;
+}
+
+.sec-9{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 24px;
+    background-color: #ededed;
+    padding: 24px;
+}
+
+.s9-1 h1,
+.s9-2 h1{
+    font-size: 19px;
+    color: #606060;
+    font-family: roboto;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+
+.s9-1 h2{
+    font-size: 16px;
+    color:#606060;
+    font-family: roboto;
+    margin-bottom: 12px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.s9-1 h3,
+.s9-2 h3{
+    font-size: 13px;
+    margin-bottom: 2px;
+    color:#606060;
+    font-family: roboto;
+    font-weight: 500;
+
+}
+
+.s9-1 p,
+.s9-2 p{
+    color: #888;
+    font-family: roboto;
+    font-size: 10px;
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+
+.s9-3 h2,
+.s9-4 h2 {
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 500;
+    color:#606060;
+    margin-bottom: 5px;
+}
+
+.s9-3 h3 a,
+.s9-4 h3 a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: 500;
+    color:#606060;
+}
+
+.s9-3 h3 a:hover,
+.s9-4 h3 a:hover{
+    text-decoration: underline;
+}
+
+.s9-3 p a,
+.s9-4 p a{
+    text-decoration: none;
+    color: #888;
+}
+
+.s9-3 p a:hover,
+.s9-4 p a:hover{
+    text-decoration: underline;
+}
+
+.s9-3 .see{
+    text-decoration: none;
+    color: #199cb7;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.s9-3 .see:hover{
+    text-decoration: underline;
+}
+
+.s9-3 p,
+.s9-4 p
+{
+    font-family: arial;
+    font-size: 11px;
+    margin-bottom: 12px;
+    line-height: 15px;
+}
+
+.s9-3 h3{
+}
+
+
+
 
