@@ -39,8 +39,59 @@ nav{
      transition: 0.15s;
 }
 
+.h-1-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help-container{
+    position: relative;
+}
+
+.help-container:hover .help-tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+
+.help-container .help-tooltip{
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+    border-radius: 6px;
+    z-index: 1;
+    position: absolute;
+    bottom: -310px;
+    right:-50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.help-container .help-tooltip li{
+    list-style: none;
+    margin-bottom: 18px;
+}
+
+.help-container .help-tooltip a:hover p{
+    text-decoration: underline;
+    color: red;
+}
+
+.help-container .help-tooltip a{
+    font-size: 14px;
+    color: #606060;
+}
+
 .h-1-1 a:hover{
     color:rgb(219, 219, 219);
+}
+
+.help-container .help-tooltip a p{
+    display: inline-block;
 }
 
 .h-1-2 span{
@@ -53,6 +104,61 @@ nav{
     background-color: rgba(0 ,0 ,0,.3);
     display: flex;
     align-items: center;
+}
+
+.h-1-2{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.h-1-2:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 1;
+    position: absolute;
+    bottom: -420px;
+    right: 50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .t-11{
+    width: 300px;
+    margin-bottom: 6px;
+}
+
+.tooltip .t-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tooltip h2{
+    color: rgb(255, 84, 22);
+    font-family: roboto;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.tooltip .b img{
+    width: 150px;
+}
+
+.tooltip .b-b img{
+    width: 175px;
 }
 
 .h-2{
@@ -91,6 +197,7 @@ nav{
 .right-section{
     width: 280px;
    display: flex;
+   align-items: center;
    flex-direction: row;
    justify-content: space-between;
 }
@@ -116,7 +223,7 @@ nav{
 }
 
 .section-2{
-    padding: 115px 25px;
+    padding: 115px 40px;
 }
 
 .sec-1{
@@ -127,13 +234,14 @@ nav{
 .sec-1-1{
     background-color: white;
     width: 240px;
+    height: 353px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 1px 1px rgba(0, 0,0, 0.10);
 }
 
 .sec-1-1 li {
-    list-style: none;;
+    list-style: none;
     font-family: roboto;
     font-size: 12px;
     color:  #757575;
@@ -153,7 +261,7 @@ nav{
 }
 
 .sec-1-2 img{
-    width: 940px;
+    width: 960px;
     height: auto;
     border-radius: 10px;
 }
@@ -281,7 +389,7 @@ nav{
 }
 
 .sec-4-2-1 {
-    width: 190px;
+    width: 187px;
     padding-bottom: 8px;
 }
 
@@ -350,8 +458,8 @@ nav{
 
 .sec-5-1-2{
     background-color: white;
-    width: 152px;
-    padding: 12px 19px;
+    width: 147px;
+    padding: 8px 15px;
 }
 
 .sec-5-1-2:hover{
@@ -367,8 +475,7 @@ nav{
 }
 
 .sec-5-1-2 img{
-    width: 80px;
-    height: auto;
+    height: 80px;
     margin-bottom: 8px;
 }
 
@@ -393,10 +500,11 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 20px;
+    column-gap: 10px;
 }
 
 .sec-6-2 {
-    width: 190px;
+    width: 188px;
     padding-bottom: 8px;
     background-color: white;
 }
@@ -612,10 +720,10 @@ nav{
 }
 
 .r-2-s h2{
-display: inline-block;
-font-family:roboto;
-font-size: 18px;
-color:rgb(255, 91, 32);
+    display: inline-block;
+    font-family:roboto;
+    font-size: 18px;
+    color:rgb(255, 91, 32);
 }
 
 .text{
@@ -624,10 +732,10 @@ color:rgb(255, 91, 32);
 }
 
 .r-2-s h2{
-display: inline-block;
-font-family: roboto;
-font-size: 18px;
-color:rgb(255, 91, 32);
+    display: inline-block;
+    font-family: roboto;
+    font-size: 18px;
+    color:rgb(255, 91, 32);
 }
 
 .r-2-s .text p{
@@ -660,7 +768,7 @@ color:rgb(255, 91, 32);
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 24px;
     background-color: #ededed;
-    padding: 24px;
+    padding: 28px;
 }
 
 .s9-1 h1,
@@ -694,7 +802,7 @@ color:rgb(255, 91, 32);
 .s9-1 p,
 .s9-2 p{
     color: #888;
-    font-family: roboto;
+    font-family: roboto, arial;
     font-size: 10px;
     line-height: 16px;
     margin-bottom: 15px;
