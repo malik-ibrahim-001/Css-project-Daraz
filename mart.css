@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+  background-color: rgb(255, 84, 22);
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.h-1, .h-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-1-2 span img{
+    width: 20px;
+}
+
+.h-1-1 a{
+     text-decoration: none;
+     color: white;
+     font-family: arial;
+     font-size: 12px;
+     margin-right: 20px;
+     transition: 0.15s;
+}
+
+.h-1-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help-container{
+    position: relative;
+}
+
+.help-container:hover .help-tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+
+.help-container .help-tooltip{
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+    border-radius: 6px;
+    z-index: 1;
+    position: absolute;
+    bottom: -310px;
+    right:-50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.help-container .help-tooltip li{
+    list-style: none;
+    margin-bottom: 18px;
+}
+
+.help-container .help-tooltip a:hover p{
+    text-decoration: underline;
+    color: red;
+}
+
+.help-container .help-tooltip a{
+    font-size: 14px;
+    color: #606060;
+}
+
+.h-1-1 a:hover{
+    color:rgb(219, 219, 219);
+}
+
+.help-container .help-tooltip a p{
+    display: inline-block;
+}
+
+.h-1-2 span{
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    padding: 4px 6px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgba(0 ,0 ,0,.3);
+    display: flex;
+    align-items: center;
+}
+
+.h-1-2{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.h-1-2:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: hidden;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 1;
+    position: absolute;
+    bottom: -420px;
+    right: 50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .t-11{
+    width: 300px;
+    margin-bottom: 6px;
+}
+
+.tooltip .t-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tooltip h2{
+    color: rgb(255, 84, 22);
+    font-family: roboto;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.tooltip .b img{
+    width: 150px;
+}
+
+.tooltip .b-b img{
+    width: 175px;
+}
+
+.h-2{
+    margin-top: 4px;
+}
+
+ .left-section{
+    width: 100px;
+    margin-right: 20px;
+}
+
+.left-section img{
+    height: 50px;
+}
+
+.middle-section{
+    width: 730px;
+}
+
+.middle-section input{
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.middle-section input::placeholder{
+    color: rgb(165, 165, 165);
+    font-size: 13px;
+}
+
+.middle-section .input-container{
+    position: relative;
+}
+
+.right-section{
+    width: 280px;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.right-section .vertical-line{
+    width: 1px;
+    height: 16px;
+    background-color:white
+}
+
+.right-section a{
+    font-family:arial;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white; 
+     padding: 10px 10px;
+}
+
+.right-section a:hover{
+    background-color: rgba(0 ,0 ,0,.1);
+    border-radius: 10px;
+}
+
+.container{
+    padding: 100px 34px;
+}
+
+.section-1 .shop{
+    margin-bottom: 14px;
+}
+
+.grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.box{
+    width: 240px;
+}
+
+.box a{
+    text-decoration: none;
+}
+
+.box span p{
+    color: #606060;
+}
+
+.box img{
+    width: 200px;
+}
+
+.box .text{
+    color: black;
+    font-family: arial;
+    font-size: 13px;
+}
+
+.rs{
+    font-family: roboto;
+    margin-top: 8px;
+    margin-right: 10px;
+    color: red;
+}
+
+s{
+    font-size: 13px;
+    color: gray;
+}
+
+.rs, s{
+    display: inline-block;
+}
+
+span{
+    display: block;
+}
+
+span i{
+    color:#faca51;
+    font-size: 9px;
+    display: inline-block;
+}
+
+span p{
+    margin-left: 2px;
+    display: inline-block;
+    font-size: 12px;
+}
